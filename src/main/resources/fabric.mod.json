@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "betteraim",
+  "version": "${version}",
+  "name": "Better Aim",
+  "description": "Better Aim - Toggle auto-attack with the R key.",
+  "authors": [
+    {
+      "name": "Itz0Cat"
+    }
+  ],
+  "contact": {
+    "homepage": "https://itz0cat.vercel.app/"
+  },
+  "license": "MIT",
+  "icon": "assets/betteraim/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.example.betteraim.BetterAimMod"
+    ],
+    "client": [
+      "com.example.betteraim.BetterAimClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
