@@ -9,7 +9,7 @@ base { archivesName = project.archives_base_name }
 loom {
     splitEnvironmentSourceSets()
     mods {
-        "triggerbot" {
+        "betteraim" {
             sourceSet sourceSets.main
             sourceSet sourceSets.client
         }
